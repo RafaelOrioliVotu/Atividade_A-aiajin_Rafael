@@ -1,0 +1,79 @@
+#area {
+    color: black;
+}
+
+strong {
+    color: orange;
+}
+
+* {
+    color: white;
+}
+
+body {
+    background-image: url(../_IMAGES/goku.png);
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: indigo;
+    background-size: 30%;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    background-color: darkmagenta;
+    border: 1px dashed white;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+fieldset {
+    border: 3px solid goldenrod;
+    margin-bottom: 10px;
+}
+
+.btt {
+    background-color: darkorchid;
+    border: 1px transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.btt:hover {
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+.a {
+    border: transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 60%;
+    height: 30px;
+    color: black;
+}
+
+.a:focus {
+    background-color: lightpink;
+}
+
+select,
+option {
+    width: 20%;
+    font-size: 15px;
+    height: 30px;
+    color: black;
+}
+
+textarea {
+    resize: none;
+    font-size: 15px;
+}
+
+label,
+legend {
+    font-size: 20px;
+}
